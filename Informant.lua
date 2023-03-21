@@ -99,8 +99,8 @@ library.themes = {
         }
     },
    
-    
-}
+    }
+
 
 local blacklistedKeys = {
     Enum.KeyCode.Unknown,
@@ -4591,9 +4591,6 @@ function library:CreateSettingsTab(menu)
         })
     end})
     
-    mainSection:AddButton({text = 'Copy Discord', flag = 'copydiscord', callback = function()
-        setclipboard('https://discord.gg/'..getgenv().Config.Invite)
-    end})
 
     mainSection:AddButton({text = 'Rejoin Server', confirm = true, callback = function()
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId);
