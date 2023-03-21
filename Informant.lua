@@ -99,7 +99,7 @@ library.themes = {
         }
     },
    
-    }
+    
 }
 
 local blacklistedKeys = {
