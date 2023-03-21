@@ -1,8 +1,4 @@
---[[
-Octohook ui lib informant version
-Developed by liam#4567
-Edited by xz#1111
-]]
+
 
 -- // Load
 
@@ -70,7 +66,7 @@ local library = {
     open = false;
     opening = false;
     hasInit = false;
-    cheatname = startupArgs.cheatname or 'octohook';
+    cheatname = startupArgs.cheatname or 'Kami';
     gamename = startupArgs.gamename or 'universal';
     fileext = startupArgs.fileext or '.txt';
 }
